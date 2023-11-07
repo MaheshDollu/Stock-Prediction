@@ -3,6 +3,14 @@ Strategy_2: Utilize the 50-day moving average vs the 200-day moving average. A g
 
 A death cross is basically the opposite of a golden cross. It’s a chart pattern where a short-term MA crosses below a long-term MA. For example, the 50-day MA crosses below the 200-day MA. As such, a death cross is typically considered to be a bearish (selling) signal.
 
+You should get the historical data (this is real/production data) from a credible source, see below.
+Prior commencing your efforts on coding, you must install/utilize the following libraries:
+• Yahoo Finance, or
+• GoogleFinance API
+https://pypi.org/project/yfinance/
+
+https://support.google.com/docs/answer/3093281
+
 NumPy library provides a plethora of building methods to handle current (today’s) price, yesterday’s price, Moving Averages (MAs), Roll, etc.
 
 For instance, to calculate the values of the target variable for Strategy-1, use this NumPy call:
